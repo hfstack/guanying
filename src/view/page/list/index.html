@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include('../../components/layout/header.html') %>
+  <title>{{title}}</title>
+  <link rel="dns-prefetch" href="//yun.duiba.com.cn">
+  <link rel="stylesheet" href="/assets/less/page/list/index.less" media="all" />
+</head>
+
+<body>
+  <section class="g-mt-list">
+    <%- include('../../components/layout/nav.html') %>
+    <section class="container">
+      <%- include('./components/list.html') %>
+      <%- include('../../components/layout/pagination.html') %>
+    </section>
+  </section>
+  <script type="text/javascript" src="/assets/js/common/base.js"></script>
+  <script type="text/javascript" src="/assets/js/page/list/index.js"></script>
+</body>
+</html>

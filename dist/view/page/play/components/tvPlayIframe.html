@@ -1,0 +1,20 @@
+<section class="g-tv-iframe">
+  <div id="ckvip" name="ckvip" class="row v-frame">
+    <div class="container">
+      <div class="col-md-8">
+        <iframe border="0" id="vplay" name="vplay" data-src="{{url}}" src="" tppabs="" class="" allowfullscreen="true" allowtransparency="" frameborder="0">
+        </iframe>
+      </div>
+      <div class="col-md-4">
+        <div class="tv-title">
+          <p>{{title}}</p>
+        </div>
+        <ul class="tv-list">
+          {{each tv item i}}
+          <li class="item {{i === 0 ? 'active': ''}}"  ><a href="/page/play/tv?id={{item.id}}&title={{item.name}}&url={{item.url}}">{{item.content}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

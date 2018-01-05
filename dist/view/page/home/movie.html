@@ -1,0 +1,29 @@
+<section class="g-movie container">
+  <div class="mod_title">
+    <h2 class="title"><a href="javascript"><span class="text_medium">电影</span></a></h2>
+    <div class="title_sub">
+      <a href="">更多</a>
+    </div>
+  </div>
+  <div class="mod_bd">
+    <div class="mod_figures">
+      <ul class="figures_list">
+        {{each movie item i}}
+        <li class="list_item">
+          <a href="/page/play/index?url={{item.url}}&title={{item.name}}" target="_blank" class="figure"  title="{{item.name}}" >
+            <img alt="{{item.name}}" src="{{item.imgUrl}}">
+            <div class="figure_caption figure_caption_info">
+              <div class="figure_info">
+                <p class="figure_info_desc">{{item.desc}}</p>
+              </div>
+            </div>
+          </a>
+          <strong class="figure_title">
+            <a href="{{item.url}}" target="_blank" title="{{item.name}}">{{item.name}}</a>
+          </strong>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>

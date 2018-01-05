@@ -1,0 +1,1 @@
+require('./components/search.js')

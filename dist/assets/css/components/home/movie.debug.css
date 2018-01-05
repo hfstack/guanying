@@ -1,0 +1,139 @@
+.g-movie {
+  margin-top: 30px;
+}
+.g-movie .mod_title {
+  padding: 5px 0;
+}
+.g-movie .mod_title .title {
+  font-size: 28px;
+  line-height: 1.2;
+  color: #2a2a2a;
+  display: inline-block;
+}
+.g-movie .mod_title .title a {
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  vertical-align: bottom;
+  color: #2a2a2a;
+}
+.g-movie .mod_title .title .text_medium {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  font-size: 24px;
+}
+.g-movie .mod_title .title_sub {
+  display: inline-block;
+  zoom: 1;
+  width: 80%;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 5px;
+  margin-left: -10px;
+  vertical-align: bottom;
+  white-space: normal;
+  font-size: 14px;
+}
+.g-movie .mod_title .title_sub a {
+  display: inline-block;
+  zoom: 1;
+  height: 16px;
+  line-height: 14px;
+  margin: 0 5px;
+  font-size: 14px;
+  vertical-align: top;
+  overflow: hidden;
+  color: #2a2a2a;
+}
+.g-movie .mod_bd .mod_figures {
+  margin-bottom: 20px;
+  font-size: 0;
+  letter-spacing: -5px;
+}
+.g-movie .mod_bd .figures_list {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.g-movie .mod_bd .figure {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-weight: 500;
+  z-index: 2;
+}
+.g-movie .mod_bd .figure img {
+  width: 175px;
+  height: 245px;
+}
+.g-movie .mod_bd .figure_info {
+  color: #989898;
+  margin: 0 10px;
+  display: block;
+}
+.g-movie .mod_bd .figure_info .figure_info_desc {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 2px;
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.g-movie .mod_bd .list_item {
+  width: 175px;
+  height: 272px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px;
+  letter-spacing: normal;
+  transition: all 0.3s ease-in-out;
+}
+.g-movie .mod_bd .list_item .figure_caption {
+  width: 175px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  zoom: 1;
+  padding-top: 0;
+}
+.g-movie .mod_bd .list_item .figure_caption .figure_info {
+  font-size: 14px;
+  margin: 0 10px;
+  display: block;
+}
+.g-movie .mod_bd .list_item .figure_caption .figure_info_score {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ff7800;
+  font-family: STSong,Aparajita;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.g-movie .mod_bd .list_item .figure_title {
+  height: 22px;
+  margin-top: 5px;
+}
+.g-movie .mod_bd .list_item .figure_title a {
+  display: block;
+  text-overflow: inherit;
+  white-space: inherit;
+  overflow: inherit;
+  text-align: center;
+  color: #2a2a2a;
+  font-size: 16px;
+  line-height: 30px;
+}
+.g-movie .mod_bd .list_item .figure_title a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}

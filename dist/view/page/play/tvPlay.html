@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include('../../components/layout/header.html') %>
+  <title>{{title}}</title>
+  <link rel="dns-prefetch" href="//yun.duiba.com.cn">
+  <link rel="stylesheet" href="/assets/css/page/play/tvPlay_201709011028.css" media="all" />
+</head>
+
+<body>
+  <section class="g-play-tv">
+    <%- include('../../components/layout/nav.html') %>
+    <section class="container">
+      <%- include('./components/portSelect.html') %>
+      <%- include('./components/tvPlayIframe.html') %>
+    </section>
+  </section>
+  <script type="text/javascript" src="/assets/js/page/play/tvPlay_201709011028.js"></script>
+</body>
+</html>
