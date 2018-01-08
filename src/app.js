@@ -24,7 +24,7 @@ render(app, {
 })
 const env = process.env.NODE_ENV || 'development' // Current mode
 
-const publicKey = fs.readFileSync(path.join(__dirname, '../publicKey.pub'))
+// const publicKey = fs.readFileSync(path.join(__dirname, '../publicKey.pub'))
 
 app
   .use((ctx, next) => {
